@@ -1,0 +1,25 @@
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+
+# Build artifacts
+build/
+dist_build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts - rendered assets (dist/cases/assets/ is for distribution only)
+src/cases/case*/assets/

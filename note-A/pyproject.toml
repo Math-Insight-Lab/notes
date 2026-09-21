@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "note-A"
+version = "1.0.0"
+description = "小学数理直觉随笔可视化"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "calc_insight_kit",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]

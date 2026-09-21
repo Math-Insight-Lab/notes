@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "note-B"
+version = "0.1.0"
+description = "Level-B 初中数理直觉随笔"
+license = { text = "MIT" }
+authors = [{ name = "Math-Insight-Lab" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "sympy",
+]
+
+[project.optional-dependencies]
+calc-insight-kit = ["git+https://github.com/Math-Insight-Lab/calc-insight-kit.git"]
+
+[project.urls]
+Homepage = "https://github.com/Math-Insight-Lab/note-B"
