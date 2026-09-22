@@ -159,8 +159,4 @@ notes/
 
 - calc‑insight‑kit：https://github.com/Math-Insight-Lab/calc-insight-kit
 
-## 未来随手记
-
-- note‑D｜大学数理随笔：FTC 严格证明、换元、分部积分、简单微分方程直觉，有空再写。
-
 > 纯属个人随手写的**数理直觉随笔集**，无答疑服务。
